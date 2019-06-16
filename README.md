@@ -1,5 +1,7 @@
 # ODBC wrapper for safe idiomatic Rust
 
+## This is a fork of odbc-rs which only adds the method tables_opt_str to Statement, which uses optionals and passes NULL to odbc if the Optional is None.
+
 Library for writing [ODBC](https://msdn.microsoft.com/en-us/library/ms710154.aspx) applications in Rust.
 
 If you're looking for raw ODBC FFI bindings check [odbc-safe](https://github.com/pacman82/odbc-safe) and [odbc-sys](https://github.com/pacman82/odbc-sys) crate.
